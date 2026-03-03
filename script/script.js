@@ -84,7 +84,6 @@ document.getElementById("jobs-container").addEventListener("click", function (ev
 
         status.innerText = "Rejected";
         status.classList.remove("text-gray-500", "border-gray-300", "bg-gray-200", "bg-transparent", "border-teal-400", "text-teal-400");
-
         status.classList.add("bg-transparent", "border-red-400", "text-red-400");
         rejectedContainer.appendChild(card);
 
