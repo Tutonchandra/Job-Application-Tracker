@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,28 +20,29 @@
 
 </head>
 
-<body class="bg-slate-100 min-h-screen   ">
-    <header class=" w-[80%] mx-auto px-0 py-6    ">
-        <h1 class="text-3xl font-bold">Job Application Tracker</h1>
-
+<body class="bg-slate-100 min-h-screen">
+    <header class=" w-[80%] mx-auto px-0 py-6">
+        <h1 class="text-3xl font-semibold">Job Application Tracker</h1>
     </header>
+
     <div class=" ">
         <main class="w-[80%] mx-auto">
             <!-- stasts cards -->
             <div class="flex justify-between mx-auto mb-5  grid grid-cols-3 gap-5 h-30 ">
-                <div class=" bg-white px-6 py-6 rounded-2xl">
+                <div class=" bg-white px-6 py-6 rounded-2xl content-center">
                     <p> Total</p>
                     <p id="stat-total" class=" text-blue-600 font-bold text-2xl">0</p>
                 </div>
-                <div class=" bg-white px-6 py-6 rounded-2xl ">
+                <div class=" bg-white px-6 py-6 rounded-2xl content-center ">
                     <p>Interview</p>
                     <p id="stat-interview" class="text-green-600 font-bold text-2xl">0</p>
                 </div>
-                <div class=" bg-white px-6 py-6 rounded-2xl">
+                <div class=" bg-white px-6 py-6 rounded-2xl content-center">
                     <p> Rejected</p>
                     <p id="stat-reject" class="text-red-600 font-bold text-2xl">0</p>
                 </div>
             </div>
+
             <!-- divider -->
 
             <hr class="mb-4 opacity-30 ">
@@ -112,7 +112,7 @@
                                     <span class="mx-1.5 text-slate-500">.</span>
                                     <span>Full Time</span>
                                     <span class="mx-1.5 text-slate-500">.</span>
-                                    <span>$95,000 – $125,000</span>
+                                    <span>$95,000-$125,000</span>
                                     <span class="mx-1.5 text-slate-500">.</span>
 
                                 </p>
@@ -361,10 +361,9 @@
                                 </button>
                             </div>
                         </div>
-
                     </div>
-
                 </section>
+
                 <section id="interview-container" class="hidden"></section>
                 <section id="reject-container" class="hidden"></section>
             </div>
@@ -382,6 +381,6 @@
         </main>
     </div>
     <script src="script/script.js"></script>
-</body>
 
+</body>
 </html>
